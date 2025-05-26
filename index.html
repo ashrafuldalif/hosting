@@ -1,125 +1,244 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/home.css" />
+    <!-- <link rel="stylesheet" href="../static/css/style.css" /> -->
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart"
     />
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/bgSliding.css">
 
     <title>Void</title>
   </head>
   <body>
-    <nav>
+        <div class="bg">
+      <img src="../static/iamges/mangabg1.jpg" />
+      <img src="../static/iamges/mangabg2.jpg" />
+      <img src="../static/iamges/mangabg3.jpg" />
+      <img src="../static/iamges/mangabg4.jpg" />
+      <img src="../static/iamges/mangabg5.jpg" />
+      <img src="../static/iamges/mangabg6.jpg" />
+      <img src="../static/iamges/mangabg7.jpg" />
+    </div>
+    <nav class="smart-nav">
       <div class="top right">
         <div class="users DF">
-          <p class="user_name">Ashraful D alif</p>
-          <img src="iamges/userIcon.svg" alt="" class="icons" />
+          <a href="./templates/profile.html">
+            <p class="user_name btnImgs">Ashraful D alif</p>
+          </a>
+          <button class="btnImgs">
+            <a href="./templates/login.html">
+              <img src="../static/iamges/userIcon.svg" alt="" class="icons dark_icon" />
+            </a>
+          </button>
         </div>
       </div>
       <div class="bottom DF">
         <div class="logo left">
-          <img src="iamges/demoLogo.jpg" alt="" class="logo" />
+          <a href="#">
+
+            <img src="../static/iamges/demoLogo.jpg" alt="" class="logo" />
+          </a>
         </div>
         <div class="right DF">
-          <p class="nav_items select">Shop</p>
-          <p class="nav_items">About</p>
-          <p class="nav_items">Contact</p>
-          <img src="iamges/Basket_alt_3_light.svg" class="icons" />
+          <a
+            href="#"
+            class="nav_items select "
+            >Home</a
+          >
+        
+
+          <a href="./templates/shop.html"
+
+            class="nav_items "
+            >Shop</a
+          >
+          <a
+            href="#contact"
+            class="nav_items "
+            >Contact</a
+          >
+
+          <button class="cart-icon" id="cartBtn">
+            
+              <div class="cart-badge">12</div>
+            <img src="../static/iamges/Basket_alt_3_light.svg" class="icons dark_icon" />
+          </button>
         </div>
       </div>
     </nav>
+    
+    
+<div class="hero_section">
+  <p class="hero_heading">Main heading here ola</p>
+  <p class="hero_subline">subline text here avara ka davra</p>
+  <a href="">
+    <div class="shop_button center"><p>Shop Now</p></div>
+  </a>
+</div>
 
-    <div class="hero_section">
-      <p class="hero_heading">Main heading here</p>
-      <p class="hero_subline">subline text here avara ka davra</p>
-      <a href="">
-        <div class="shop_button center"><p>Shop Now</p></div>
-      </a>
+<p class="identity">OUR PRODUCTS</p>
+<div class="gellary DF center" id="gallery">
+  <!-- <div class="leftArrow">
+    <img src="../static/iamges/arrow-left.svg" alt="" />
+    </div> -->
+
+  <div class="tile center">
+<a href="./templates/product.html">
+    
+      <img src="./static/iamges/Cluffy.jpg" />
+      <p class="productName">Monkey D luffy</p>
+      <p class="productPrice">5M</p>
+    </a>
+      <div class="AddTOCartBtn center">
+        <p>Add to Cart</p>
+      </div>
     </div>
 
-    <p class="identity">OUR PRODUCTS</p>
-    <div class="gellary DF center">
-      <!-- <div class="leftArrow">
-        <img src="iamges/arrow-left.svg" alt="" />
-      </div> -->
+  <div class="tile center">
+<a href="./templates/product.html">
+    
+      <img src="./static/iamges/Czoro.jpg" />
+      <p class="productName">Monkey D luffy</p>
+      <p class="productPrice">5M</p>
+    </a>
+      <div class="AddTOCartBtn center">
+        <p>Add to Cart</p>
+      </div>
+    </div>
+    
 
       <div class="tile center">
-        <img src="iamges/Cluffy.jpg" />
-        <p class="productName">First Product</p>
-        <p class="productPrice">5000 tk</p>
-        <div class="AddTOCartBtn center">
-          <p>Add to Cart</p>
-        </div>
+<a href="./templates/product.html">
+    
+      <img src="./static/iamges/choper.jpg" />
+      <p class="productName">Monkey D luffy</p>
+      <p class="productPrice">5M</p>
+    </a>
+      <div class="AddTOCartBtn center">
+        <p>Add to Cart</p>
       </div>
-
+    </div>
       <div class="tile center">
-        <img src="iamges/Czoro.jpg" />
-        <p class="productName">Sex ond Pr oduct</p>
-        <p class="productPrice">1200 tk</p>
-        <div class="AddTOCartBtn center">
-          <p>Add to Cart</p>
-        </div>
-      </div>
-      <!-- <div class="rightArrow">
-        <img src="iamges/arrow-right.svg" alt="" />
-      </div> -->
-    </div>
-
-    <p class="identity">WHY CHOOSE US</p>
-    <div class="WhyUs DF">
-      <div class="choseItem DF">
-        <img src="iamges/underwear.svg" alt="" class="icons" />
-        <p>Comfort fit</p>
-      </div>
-      <div class="choseItem DF">
-        <img src="iamges/textile.svg" alt="" class="icons" />
-        <p>Premium <br> Febric</p>
-      </div>
-      <br />
-      <div class="choseItem DF">
-        <img src="iamges/package.svg" alt="" class="icons" />
-        <p>Discreet <br> Packaging</p>
-      </div>
-      <div class="choseItem DF">
-        <img
-          src="iamges/delivery_truck_speed.svg"
-          alt=""
-          class="icons"
-        />
-
-        <p>Fast Delivery</p>
+<a href="./templates/product.html">
+    
+      <img src="./static/iamges/sanji.jpg" />
+      <p class="productName">Monkey D luffy</p>
+      <p class="productPrice">5M</p>
+    </a>
+      <div class="AddTOCartBtn center">
+        <p>Add to Cart</p>
       </div>
     </div>
-
-    <p class="identity">ABOUT VOID</p>
-    <div class="about">
-      <p></p>
-      <p></p>
-      <p></p>
+      <div class="tile center">
+<a href="./templates/product.html">
+    
+      <img src="./static/iamges/nami.jpg" />
+      <p class="productName">Monkey D luffy</p>
+      <p class="productPrice">5M</p>
+    </a>
+      <div class="AddTOCartBtn center">
+        <p>Add to Cart</p>
+      </div>
     </div>
+    
+  <!-- <div class="rightArrow">
+    <img src="../static/iamges/arrow-right.svg" alt="" />
+    </div> -->
+</div>
 
-    <p class="identity">CONTACT US</p>
+<p class="identity">WHY CHOOSE US</p>
+<div class="WhyUs DF">
+  <div class="choseItem DF">
+    <img src="../static/iamges/underwear.svg" class="icons" />
+    <p>Comfort fit</p>
+  </div>
+  <div class="choseItem DF">
+    <img src="../static/iamges/textile.svg" class="icons" />
+
+    <p>
+      Premium <br />
+      Febric
+    </p>
+  </div>
+  <br />
+  <div class="choseItem DF">
+    <img src="../static/iamges/package.svg" class="icons" />
+
+    <p>
+      Discreet <br />
+      Packaging
+    </p>
+  </div>
+  <div class="choseItem DF">
+    <img src="../static/iamges/delivery_truck_speed.svg" class="icons" />
+    <p>Fast Delivery</p>
+  </div>
+</div>
+
+<p class="identity">ABOUT VOID</p>
+<div class="about">
+  <p></p>
+  <p></p>
+  <p></p>
+</div>
+
     <div class="contact DF">
-        <div>
-            <img src="iamges/email.svg" class="icons" />
-            <a href="mailto:ashrafulalif26@gmail.com">ashrafulalif26@gmail.com</a>
-        </div>
-        <div>
-            <img src="iamges/phone.svg" class="icons" />
-            <a href="tel:+8801601614334">01601614334</a>
-        </div>
-        <div>
-            <img src="iamges/pin.svg" class="icons" />
-            <a href="https://maps.google.com/?q=Sadar+Hospital+Road,Munshigonj,Dhaka,Bangladesh" target="_blank">
-                Sadar Hospital Road, Munshigonj, Dhaka, Bangladesh
-            </a>
-        </div>
+      <p class="identity" id="contact">CONTACT US</p>
+      <div>
+        <img src="../static/iamges/email.svg" class="icons" />
+        <a href="mailto:ashrafulalif26@gmail.com">ashrafulalif26@gmail.com</a>
+      </div>
+      <div>
+        <img src="../static/iamges/phone.svg" class="icons" />
+        <a href="tel:+8801601614334">01601614334</a>
+      </div>
+      <div>
+        <img src="../static/iamges/pin.svg" class="icons" />
+        <a
+          href="https://maps.google.com/?q=Sadar+Hospital+Road,Munshigonj,Dhaka,Bangladesh"
+          target="_blank"
+        >
+          Sadar Hospital Road, Munshigonj, Dhaka, Bangladesh
+        </a>
+      </div>
     </div>
-    <footer>
 
-    </footer>
+    <!--  my cart section  -->
+
+    <div class="mycart" id="myCart">
+      <div class="cart_heading">
+        <p>My Cart</p>
+        <button id="CloseCart" class="btnImgs">
+          <img src="../static/iamges/cros.svg" />
+        </button>
+      </div>
+      <div class="cart_items DF">
+        <div class="citem DF">
+  <img src="../static/iamges/Cluffy.jpg" class="Pimage" />
+
+  <div class="texts">
+    <p class="CIname">Name: Monkey D luffy</p>
+    <p class="Ctk">Price: 5000 tk</p>
+    <p class="ID">Product ID : 23100122</p>
+  </div>
+  <button class="btnImgs">
+    <img src="../static/iamges/delete.svg" alt="" class="del" />
+  </button>
+</div>
+
+
+      </div>
+    </div>
+    <footer></footer>
   </body>
+   <script src="./static/js/index.js"></script>
+   
 </html>
+
+
+
